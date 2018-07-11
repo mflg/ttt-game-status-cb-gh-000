@@ -41,4 +41,5 @@ def winner (board)
   winner_combination = won?(board)
   if winner_combination!= nil
     winner_combination[0]
+  end
 end
