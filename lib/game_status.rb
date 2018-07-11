@@ -16,3 +16,8 @@ WIN_COMBINATIONS = [
   [2,5,8]  # Column 3
   # ETC, an array for each win combination
 ]
+
+def won?()
+
+
+end
