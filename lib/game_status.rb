@@ -19,6 +19,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.detect do |arr_comb|
-    board[combination[0]]==board[combination[1]] && board[combination[0]]==board[combination[2]]
+    board[arr_comb[0]]==board[arr_comb[1]] && board[arr_comb[0]]==board[arr_comb[2]]
   end
 end
