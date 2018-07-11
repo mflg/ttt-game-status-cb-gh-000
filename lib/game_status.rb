@@ -28,3 +28,7 @@ def full?(board)
     element == " "
   end
 end
+
+def draw?(board)
+  !won?(board) && full?(board)
+end
