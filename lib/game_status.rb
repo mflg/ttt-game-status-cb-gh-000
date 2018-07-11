@@ -18,7 +18,8 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.detect |combination|
+  WIN_COMBINATIONS.detect |combination| do
     puts combination
-    board[combination[0]]==board[combination[1]] && board[combination[0]]==board[combination[2]]
+    board[combination[0]]==board[combination[1]] && board[combination[0]]==board[combination[2]]    
+  end
 end
