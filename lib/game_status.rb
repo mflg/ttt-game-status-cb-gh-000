@@ -19,9 +19,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.detect do |combination|
-    puts combination
     board[combination[0]]==board[combination[1]] && board[combination[0]]==board[combination[2]]
   end
 end
-
-won?(WIN_COMBINATIONS)
