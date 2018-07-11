@@ -23,3 +23,5 @@ def won?(board)
     board[combination[0]]==board[combination[1]] && board[combination[0]]==board[combination[2]]
   end
 end
+
+won?(WIN_COMBINATIONS)
