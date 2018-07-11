@@ -22,3 +22,7 @@ def won?(board)
     board[arr_comb[0]]!=" " && board[arr_comb[0]]==board[arr_comb[1]] && board[arr_comb[0]]==board[arr_comb[2]]
   end
 end
+
+def full?(board)
+
+end
